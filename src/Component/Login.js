@@ -23,7 +23,6 @@ export const Login = (props) => {
 
                 <input value={password} onChange={(e) => setPassword(e.target.value)} type='password' />
                 <button className='btn' type="submit">Login</button>
-                <label>test</label>
             </form>
             <button  className='link-btn' onClick={()=>props.onFormSwitch("login")}>Already have an account? Login Here</button>
         </div>
